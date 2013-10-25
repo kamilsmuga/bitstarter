@@ -115,6 +115,21 @@
   margin: 0 auto;
  }
 </style>
+<!-- Google Analytics gs.js snippet -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-45170202-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End of Google Analytics gs.js snippet -->
 </head>
 <body>
 <!-- Mobile-friendly navbar adapted from example. -->
@@ -312,7 +327,7 @@
         </div>
       </div>
     </div>
-<!-- Google Analytics -->
+<!-- Google Analytics analytics.js snippet -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -322,7 +337,7 @@
   ga('create', 'UA-45170202-1', 'secure-everglades-6427.herokuapp.com');
   ga('send', 'pageview');
 </script>    
-<!-- End of Google Analytics -->
+<!-- End of Google Analytics analytics.js snippet -->
 </body>
 </html>
 
